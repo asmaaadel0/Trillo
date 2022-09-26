@@ -1,25 +1,17 @@
-@import "abstracts/functions";
-@import "abstracts/mixins";
-@import "abstracts/variables";
-
-@import "base/animations";
-@import "base/base";
-@import "base/typography";
-@import "base/utilities";
-
-@import "components/buttons";
-@import "components/composition";
-@import "components/feature-box";
-@import "components/card";
-@import "components/story";
-@import "components/bg-video";
-@import "components/form";
-@import "components/popup";
-
-@import "layout/header";
-@import "layout/grid";
-@import "layout/footer";
-@import "layout/navigation";
-
-
-@import "pages/home";
+/*
+COLORS
+Primary: #eb2f64
+Primary light: #FF3366
+Primary dark: #BA265D
+Grey light 1: #faf9f9
+Grey light 2: #f4f2f2
+Grey light 3: #f0eeee
+Grey light 4: #ccc
+Grey dark 1: #333
+Grey dark 2: #777
+Grey dark 3: #999
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
