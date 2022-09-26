@@ -1,0 +1,28 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "landing page for trillo",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass sass/main.scss  css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmaaadel0/Trillo.git"
+  },
+  "author": "asmaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmaaadel0/Trillo/issues"
+  },
+  "homepage": "https://github.com/asmaaadel0/Trillo#readme",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "live-server": "^1.2.2"
+  }
+}
