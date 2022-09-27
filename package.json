@@ -7,9 +7,9 @@
     "watch:sass": "sass sass/main.scss css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
-
+    
     "compile:sass": "sass sass/main.scss css/style.comp.css",
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.copm.css -o css/style.prefix.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
     "compress:css": "sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "jquery": "^3.6.1",
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "postcss-cli": "^10.0.0"
   }
 }
